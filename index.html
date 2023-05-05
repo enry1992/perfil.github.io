@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- decoracion de texto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Castoro+Titling&family=Roboto+Mono:ital,wght@0,300;1,700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+    <title>Document</title>
+</head>
+<body>
+
+    <body>
+        <div class="about">
+            <h1 class="title">
+                THE SEDUCTION OF YOUR EYES
+            </h1>
+            <p class="text-uppercase" id="text">
+    
+            </p>
+        </div>
+        <div class="container_social">
+            <div class="card">
+                <div class="icon">
+                    <i class="fab fa-twitter"></i>
+                </div>
+                <h3>
+                    <a href="https://twitter.com/SeleArtistry">
+                        follow
+                    </a>
+                </h3>
+                <span>@SeleArtistry</span>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                </div>
+                <h3>
+                    <a href="https://www.facebook.com/ANIME.EROTIC">
+                        follow
+                    </a>
+                </h3>
+                <span>@𝙰𝙽𝙸𝙼𝙴.𝙴𝚁𝙾𝚃𝙸𝙲</span>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fab fa-instagram"></i>
+                </div>
+                <h3>
+                    <a href="https://www.instagram.com/selenaart.10/">
+                        follow
+                    </a>
+                </h3>
+                <span>@selenaart.10</span>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fab fa-tiktok"></i>
+                </div>
+                <h3>
+                    <a href="https://www.tiktok.com/@selenaart.10">
+                        follow
+                    </a>
+                </h3>
+                <span>@selenaart.10</span>
+            </div>
+        </div>
+    
+    <script>
+        // Espera a que el DOM esté cargado
+        document.addEventListener("DOMContentLoaded", function(event) {
+          var $text = document.getElementById("text");
+          var text = "Find the passion in your eyes";
+          var i = 0;
+          $text.style.fontSize = "33px";
+          $text.style.color = "blak"; 
+          setInterval(() => {
+            $text.innerHTML += text.charAt(i);
+            i++;
+            if (i === text.length) {
+              i = 0;
+              $text.innerHTML = "";
+            }
+          }, 100);
+        });
+      </script>
+</body>
+</html>
